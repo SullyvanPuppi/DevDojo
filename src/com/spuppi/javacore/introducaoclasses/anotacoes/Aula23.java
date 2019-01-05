@@ -1,4 +1,4 @@
-package com.spuppi.poo;
+package com.spuppi.javacore.introducaoclasses.anotacoes;
 
 public class Aula23 {
 
