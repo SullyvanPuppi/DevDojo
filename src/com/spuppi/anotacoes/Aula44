@@ -1,0 +1,3 @@
+Bloco de inicialização estáticos
+
+Primeiro a ser executado e apenas 1 vez quando a JVM inicializa a classe
