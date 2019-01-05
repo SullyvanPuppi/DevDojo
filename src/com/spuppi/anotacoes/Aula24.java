@@ -1,4 +1,4 @@
-package com.spuppi.javacore.introducaoclasses.anotacoes;
+package com.spuppi.anotacoes;
 
 public class Aula24 {
 
