@@ -7,17 +7,17 @@ import com.spuppi.javacore.Hheranca.classes.Pessoa;
 public class HerancaTest {
 
 	public static void main(String[] args) {
-		Pessoa pessoa = new Pessoa();
+		//Pessoa pessoa = new Pessoa();
 		
-		pessoa.setNome("Gina");
-		pessoa.setCpf("111.222.333-44");
+		//pessoa.setNome("Gina");
+		//pessoa.setCpf("111.222.333-44");
 		
 		Endereco end = new Endereco();
 		end.setBairro("Campo Grande");
 		end.setRua("Rua Carlos Gomes");
 		
-		pessoa.setEndereco(end);
-		pessoa.imprimir();
+		//pessoa.setEndereco(end);
+		//pessoa.imprimir();
 		
 		Funcionario f = new Funcionario();
 		f.setNome("Augusto");
@@ -25,7 +25,7 @@ public class HerancaTest {
 		f.setSalario(15000);
 		f.setEndereco(end);
 		
-		f.imprimir();
+		//f.imprimir();
 	}
 
 }

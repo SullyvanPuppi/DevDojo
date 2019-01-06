@@ -2,17 +2,29 @@ package com.spuppi.javacore.Hheranca.classes;
 
 public class Pessoa {
 
-	private Endereco endereco;
+	protected Endereco endereco;
 	
-	private String nome, cpf;
-	
+	protected String nome, cpf;
 	
 	public Pessoa() {
 		
 	}
+	public Pessoa(String nome) {
+		this.nome = nome;
+	}
 	public Pessoa(String nome, String cpf) {
 		this.nome = nome;
 		this.cpf = cpf;
+	}
+	
+	static {
+		System.out.println("Bloco de inicialização estático de Pessoa");
+	}	
+	{
+		System.out.println("Bloco de inicialização de Pessoa 1");
+	}
+	{
+		System.out.println("Bloco de inicialização de Pessoa 2");
 	}
 	
 	public void imprimir() {
