@@ -1,0 +1,5 @@
+Exceptions try-with resources parte 8 
+
+A partir do java 7 pode-se criar variavel dentro do bloco Try, porém, somente que possue AutoClosable
+
+Útil para trabalhar com arquivos e conexões com banco de dados principalmente.

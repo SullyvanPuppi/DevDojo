@@ -1,0 +1,7 @@
+Exceção parte 2
+
+Checked - unchecked
+
+Checked - Compilador espera já para compilar a especificação de um tratamento
+
+unchecked - Problema na lógica, compilador nem compila
