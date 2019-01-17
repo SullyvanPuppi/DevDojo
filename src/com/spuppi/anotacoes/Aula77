@@ -1,0 +1,5 @@
+Assertivas
+
+Métodos com assert sempre devem ser privados
+
+Para habilitar na configuração da VM options adicionar os parâmetros -ea ENABLEASSERTION
